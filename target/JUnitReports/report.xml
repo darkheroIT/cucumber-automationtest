@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.892">
+    <testcase classname="Projects functionality" name="_2" time="21.641">
+        <system-out>
+            <![CDATA[Given User is on the login page.............................................passed
+When he logins as ad admin..................................................passed
+Then he should be on my dashboard...........................................passed
+Given User is on the Projects page..........................................passed
+When he clicks on Add New button............................................passed
+And enters the value to some fields as following............................passed
+And clicks on Save button...................................................passed
+Then he sees a confirmation message.........................................passed
+And sees the new record in the list.........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

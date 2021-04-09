@@ -1,0 +1,5 @@
+runners\TestRunner.class
+stepDefinitions\DashboardSteps.class
+stepDefinitions\Hook.class
+stepDefinitions\ProjectsSteps.class
+stepDefinitions\LoginSteps.class

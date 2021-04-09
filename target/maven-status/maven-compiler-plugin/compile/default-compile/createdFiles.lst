@@ -1,0 +1,5 @@
+pageObjects\ProjectsPage.class
+cucumber\Base.class
+pageObjects\LoginPage.class
+pageObjects\DashboardPage.class
+cucumber\Wait.class

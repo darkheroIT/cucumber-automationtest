@@ -1,0 +1,214 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3723907400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on the login page",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2731010500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "he logins as ad admin",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.he_logins_as_ad_admin(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "tester",
+                  "Tester@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8977900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "he should be on my dashboard",
+            "match": {
+              "location": "stepDefinitions.DashboardSteps.he_should_be_on_my_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-09T06:35:42.810Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3324112400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hook.InitializeTest()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "projects-functionality;",
+        "after": [
+          {
+            "result": {
+              "duration": 2090893700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hook.postCondition(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1430291500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on the Projects page",
+            "match": {
+              "location": "stepDefinitions.DashboardSteps.user_is_on_the_projects_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1456105200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "he clicks on Add New button",
+            "match": {
+              "location": "stepDefinitions.ProjectsSteps.he_clicks_on_add_new_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 488075200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enters the value to some fields as following",
+            "match": {
+              "location": "stepDefinitions.ProjectsSteps.enters_the_value_to_some_fields_as_following(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "projectNo",
+                  "projectName",
+                  "serialNo"
+                ]
+              },
+              {
+                "cells": [
+                  "Auto_2021",
+                  "AutoTest",
+                  "123456"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69812900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clicks on Save button",
+            "match": {
+              "location": "stepDefinitions.ProjectsSteps.clicks_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3347154400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "he sees a confirmation message",
+            "match": {
+              "location": "stepDefinitions.ProjectsSteps.he_sees_a_confirmation_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2876922300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "sees the new record in the list",
+            "match": {
+              "location": "stepDefinitions.ProjectsSteps.sees_the_new_record_in_the_list(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "projectNo",
+                  "projectName",
+                  "serialNo"
+                ]
+              },
+              {
+                "cells": [
+                  "Auto_2021",
+                  "AutoTest",
+                  "123456"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Create"
+          }
+        ]
+      }
+    ],
+    "name": "Projects functionality",
+    "description": "",
+    "id": "projects-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/test.feature",
+    "tags": []
+  }
+]
